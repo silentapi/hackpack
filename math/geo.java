@@ -18,7 +18,7 @@ public static double[] lineIntersection(double[] line1, double[] line2) {
     // Check if the two lines are parallel
     if (denominator == 0.0) return null;
 
-    // Calculate values for UA and UB
+    // Calculate values for uA and uB
     double ua = ((x4 - x3) * (y1 - y3) - (y4 - y3) * (x1 - x3)) / denominator;
     double ub = ((x2 - x1) * (y1 - y3) - (y2 - y1) * (x1 - x3)) / denominator;
 
