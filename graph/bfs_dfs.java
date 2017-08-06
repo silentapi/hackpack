@@ -16,6 +16,7 @@ public static void bfs(boolean[][] graph, int node) {
         node = queue.poll();
 
         // Do something with the node
+        
         // Iterate all connected nodes and queue the
         // non-visited nodes then mark them as visited
         for (int otherNode = 0; otherNode < graph[node].length; otherNode++) {
@@ -45,6 +46,7 @@ public static void dfs(boolean[][] graph, int node) {
         node = stack.pop();
 
         // Do something with the node
+        
         // Iterate all connected nodes and push the
         // non-visited nodes then mark them as visited
         for (int otherNode = 0; otherNode < graph[node].length; otherNode++) {
